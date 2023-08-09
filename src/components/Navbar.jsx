@@ -4,8 +4,8 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState();
   return (
     <>
-      <nav className="w-full shadow">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <nav className="w-full shadow font-bvmp mt-4">
+        <div className=" justify-between px-4 mx-4 md:mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
@@ -76,7 +76,7 @@ const Navbar = () => {
                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gradient-to-r from-[#FF3503] to-yellow-500"></span>
                   </a>
                 </li>
-                <li className="text-white hover:text-blue-600">
+                <li className="text-white ">
                   <a
                     href="/"
                     className="group text-white  transition duration-300"
@@ -85,8 +85,18 @@ const Navbar = () => {
                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gradient-to-r from-[#FF3503] to-yellow-500"></span>
                   </a>
                 </li>
-                <li className="bg-gradient-to-r from-[#FF3503] to-yellow-500 rounded-3xl py-1 px-5 max-w-fit">
-                  <a href="#">Buy/Sell Crypto</a>
+                <li className="transition ease-linear hover:scale-[1.02]">
+                  <a
+                    href="#_"
+                    className="relative inline-flex items-center justify-center  p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-2xl shadow-2xl group"
+                  >
+                    <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#be8f32] rounded-full blur-md ease"></span>
+                    <span className="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                      <span className="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-[#eb7e3f] rounded-full blur-md"></span>
+                      <span className="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-[#F3B53D] rounded-full blur-md"></span>
+                    </span>
+                    <span className="relative text-white">Buy/Sell Crypto</span>
+                  </a>
                 </li>
               </ul>
             </div>
