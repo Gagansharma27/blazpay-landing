@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Gradient from "../utilities/Gradient";
+import logo from "../assets/logo.png";
 const Navbar = () => {
   const [navbar, setNavbar] = useState();
   return (
@@ -8,11 +9,15 @@ const Navbar = () => {
         <div className=" justify-between px-4 mx-4 md:mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="#">
-                <h2 className="text-2xl ">
-                  <span className="font-bold">Blaz</span>Pay
-                </h2>
-              </a>
+              <div className="flex justify-center items-center">
+                <img src={logo} alt="" className="h-5 " />
+
+                <a href="#">
+                  <h2 className="text-2xl ">
+                    <span className="font-bold">laz</span>Pay
+                  </h2>
+                </a>
+              </div>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"

@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Gradient from "./utilities/Gradient";
+import Description from "./components/Description";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Hero />
         <Gradient />
+        <Description />
       </div>
     </>
   );

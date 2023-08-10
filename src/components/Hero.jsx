@@ -5,8 +5,8 @@ import mobile2 from "../assets/mobile_5.png";
 const Hero = () => {
   return (
     <>
-      <div className="mt-8 md:bg-hero-pattern">
-        <div className="justify-between px-4 mx-4 md:mx-auto lg:max-w-7xl md:flex md:px-8 font-bvmp pb-20">
+      <div className="mt-8 md:bg-hero-pattern bg-cover">
+        <div className="justify-between px-4  md:mx-auto lg:max-w-7xl md:flex md:px-8 font-bvmp pb-20">
           <div className=" rounded-3xl md:w-[55%] overflow-hidden bg-[#8E8C8C]/25 ">
             <div className="p-6 ">
               <div className=" bg-gradient-to-r from-[#FF3503] to-yellow-500 mx-auto px-8 rounded-lg py-6 mb-8">
@@ -23,7 +23,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="bg-white p-10 ">
-              <div className="bg flex justify-center bg-black mx-auto max-w-md rounded-lg p-2">
+              <div className="bg flex justify-center bg-black mx-auto max-w-md rounded-lg p-2 cursor-pointer transition ease-linear hover:scale-[1.02] drop-shadow-md">
                 <a href="#" className="text-center">
                   Get Started
                 </a>
