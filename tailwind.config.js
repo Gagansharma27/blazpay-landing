@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         bvmp: ["Be Vietnam Pro", "sans-serif"],
       },
+      backgroundImage: {
+        "hero-pattern": "url('src/assets/heroBack.png')",
+      },
     },
   },
   plugins: [],
