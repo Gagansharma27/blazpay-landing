@@ -13,45 +13,45 @@ const Features = () => {
 
             {/* First Red Card */}
             <div style={{ backgroundColor: '#FF3503' }} className="shadow-md min-w-[250px] rounded-md pt-9 px-5 sm:w-full md:w-1/4 flex flex-col justify-between">
-    <div className="space-y-4">
-        <div className="text-4xl font-semibold text-white">Personalised Usernames</div>
-        <div className="text-white font text-sm">
-            Forget sharing the long string of characters. Just share your Username to receive payments
-        </div>
-    </div>
-    
-    <div style={{ backgroundColor: '#D9D9D9' }} className="p-5 rounded-tl-md rounded-tr-md space-y-6 mt-4">
-        <div className="flex justify-center items-end">
-            <div className="bg-gradient-to-r from-[#FF3503] to-yellow-500 rounded-3xl py-1 px-5 max-w-fit">
-                user@blazpay
+                <div className="space-y-4">
+                    <div className="text-4xl font-semibold text-white">Personalised Usernames</div>
+                    <div className="text-white font text-sm">
+                        Forget sharing the long string of characters. Just share your Username to receive payments
+                    </div>
+                </div>
+
+                <div style={{ backgroundColor: '#D9D9D9' }} className="p-5 rounded-tl-md rounded-tr-md space-y-6 mt-4">
+                    <div className="flex justify-center items-end">
+                        <div className="bg-gradient-to-r from-[#FF3503] to-yellow-500 rounded-3xl py-1 px-5 max-w-fit">
+                            user@blazpay
+                        </div>
+                    </div>
+                    <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
+                        <div className="w-6 h-6">
+                            <img src={EthIcon} alt="Eth Icon" className="w-full h-full" />
+                        </div>
+                        <div>0x231e45et05cf45</div>
+                    </div>
+                    <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
+                        <div className="w-6 h-6">
+                            <img src={maticImage} alt="Eth Icon" className="w-full h-full" />
+                        </div>
+                        <div>0x231e45et05cf45</div>
+                    </div>
+                    <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
+                        <div className="w-6 h-6">
+                            <img src={bnbImage} alt="Eth Icon" className="w-full h-full" />
+                        </div>
+                        <div>0x231e45et05cf45</div>
+                    </div>
+                    <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
+                        <div className="w-6 h-6">
+                            <img src={EthIcon} alt="Eth Icon" className="w-full h-full" />
+                        </div>
+                        <div>0x231e45et05cf45</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
-            <div className="w-6 h-6">
-                <img src={EthIcon} alt="Eth Icon" className="w-full h-full" />
-            </div>
-            <div>0x231e45et05cf45</div>
-        </div>
-        <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
-            <div className="w-6 h-6">
-                <img src={maticImage} alt="Eth Icon" className="w-full h-full" />
-            </div>
-            <div>0x231e45et05cf45</div>
-        </div>
-        <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
-            <div className="w-6 h-6">
-                <img src={bnbImage} alt="Eth Icon" className="w-full h-full" />
-            </div>
-            <div>0x231e45et05cf45</div>
-        </div>
-        <div className="bg-white rounded p-2 font-mono text-gray-700 flex items-center space-x-3 w-full">
-            <div className="w-6 h-6">
-                <img src={EthIcon} alt="Eth Icon" className="w-full h-full" />
-            </div>
-            <div>0x231e45et05cf45</div>
-        </div>
-    </div>
-</div>
 
 
             {/* Gray Cards Container */}

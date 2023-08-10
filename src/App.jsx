@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Features from './components/Features';
 import Hero from "./components/Hero";
 import Gradient from "./utilities/Gradient";
+import WhyUs from "./components/WhyUs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <Features/>
+        <WhyUs/>
         <Gradient />
       </div>
     </>
