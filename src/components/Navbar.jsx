@@ -5,7 +5,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState();
   return (
     <>
-      <nav className="w-full shadow font-bvmp mt-4">
+      <nav className="w-full shadow font-bvmp mt-4" data-aos="fade-down">
         <div className=" justify-between px-4 mx-4 md:mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -92,7 +92,7 @@ const Navbar = () => {
                 </li>
                 <li className="transition ease-linear hover:scale-[1.02]">
                   <a
-                    href="#_"
+                    href="/"
                     className="relative inline-flex items-center justify-center  p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-2xl shadow-2xl group"
                   >
                     <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#be8f32] rounded-full blur-md ease"></span>

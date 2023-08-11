@@ -1,5 +1,6 @@
-import { useState } from "react";
-
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Features from "./components/Features";
@@ -9,6 +10,10 @@ import Description from "./components/Description";
 import WhyUs from "./components/WhyUs";
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <>
       <div className="">

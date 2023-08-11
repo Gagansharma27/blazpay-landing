@@ -15,6 +15,8 @@ const Features = () => {
           <div
             style={{ backgroundColor: "#FF3503" }}
             className="shadow-md min-w-[280px] rounded-md pt-9 px-5 sm:w-full md:w-1/4 flex flex-col justify-between"
+            data-aos="fade-right"
+            data-aos-duration="600"
           >
             <div className="space-y-4">
               <div className="text-4xl font-semibold text-white">
@@ -74,6 +76,8 @@ const Features = () => {
             <div
               style={{ backgroundColor: "#525B61" }}
               className="shadow-md rounded-md flex flex-col min-w-[280px] sm:w-full"
+              data-aos="fade-down"
+              data-aos-duration="1000"
             >
               <div className="flex justify-end pr-4 pt-2">
                 <div className="text-3xl font-semibold text-white">
@@ -96,6 +100,8 @@ const Features = () => {
             <div
               style={{ backgroundColor: "#E1E1E1" }}
               className="shadow-md rounded-md p-3 min-w-[280px] sm:w-full space-y-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
             >
               <div className="flex flex-row md:flex-row space-y-4 md:space-y-1 md:space-x-0 items-center">
                 <div className="space-y-2 md:space-y-1">
@@ -121,6 +127,8 @@ const Features = () => {
           <div
             style={{ backgroundColor: "#FF3503" }}
             className="shadow-md rounded-md p-4 min-w-[280px] sm:w-full md:w-1/4 space-y-4 flex justify-center items-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
           >
             <div className="space-y-4">
               <div className="text-4xl font-semibold text-white">

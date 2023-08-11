@@ -17,6 +17,9 @@ const Features = () => {
                   "linear-gradient(180deg, #4A4A4A 0%, rgba(74, 74, 74, 0) 100%)",
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
+              data-aos="fade-down"
+              data-aos-delay="500"
+              data-aos-duration="1000"
             >
               <div className="flex">
                 <div>
@@ -38,6 +41,9 @@ const Features = () => {
                   "linear-gradient(180deg, #4A4A4A 0%, rgba(74, 74, 74, 0) 100%)",
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
+              data-aos="fade-down"
+              data-aos-delay="700"
+              data-aos-duration="1000"
             >
               <div className="flex">
                 <div>
@@ -59,6 +65,9 @@ const Features = () => {
                   "linear-gradient(180deg, #4A4A4A 0%, rgba(74, 74, 74, 0) 100%)",
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
+              data-aos="fade-down"
+              data-aos-delay="900"
+              data-aos-duration="1000"
             >
               <div className="flex">
                 <div>
@@ -80,6 +89,9 @@ const Features = () => {
                   "linear-gradient(180deg, #4A4A4A 0%, rgba(74, 74, 74, 0) 100%)",
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
+              data-aos="fade-down"
+              data-aos-delay="1100"
+              data-aos-duration="1000"
             >
               <div className="flex">
                 <div>
@@ -97,14 +109,16 @@ const Features = () => {
             </div>
           </div>
           <div className="order-0 md:order-2 w-full md:w-1/3 p-4">
-            <div className="font-bold text-5xl mb-20">Why us?</div>
-            <div className="pb-4">
+            <div className="font-bold text-5xl mb-20" data-aos="fade-in">
+              Why us?
+            </div>
+            <div className="pb-4" data-aos="fade-in" data-aos-delay="100">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </div>
-            <div className="pb-5">
+            <div className="pb-5" data-aos="fade-in" data-aos-delay="200">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
