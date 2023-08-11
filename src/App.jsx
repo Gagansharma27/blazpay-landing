@@ -6,6 +6,7 @@ import Features from './components/Features';
 import Hero from "./components/Hero";
 import Gradient from "./utilities/Gradient";
 import WhyUs from "./components/WhyUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Features/>
         <WhyUs/>
+        <Footer/>
         <Gradient />
       </div>
     </>

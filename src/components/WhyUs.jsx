@@ -5,7 +5,7 @@ import userIcon from '../assets/Group 15.svg';
 import worldIcon from '../assets/Group 17.svg';
 import bg from '../assets/whyusbg.png';
 
-const Features = () => {
+const WhyUs = () => {
     return (
         <>
             <div style={{
@@ -84,4 +84,4 @@ const Features = () => {
     )
 };
 
-export default Features;
+export default WhyUs;
