@@ -6,6 +6,7 @@ import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Gradient from "./utilities/Gradient";
 import Description from "./components/Description";
+import WhyUs from "./components/WhyUs";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Features />
         <Gradient />
         <Description />
+        <Gradient />
+        <WhyUs />
+        {/* <Gradient /> */}
       </div>
     </>
   );

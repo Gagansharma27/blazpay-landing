@@ -1,7 +1,9 @@
 import React from "react";
 import card from "../assets/cards.png";
 import cardShadow from "../assets/cardShadow.png";
-import mobile2 from "../assets/mobile_5.png";
+
+import apple from "../assets/apple.png";
+import google from "../assets/google.png";
 
 const Description = () => {
   return (
@@ -26,22 +28,33 @@ const Description = () => {
                 This is heading
               </h2>
             </div>
-            <div className=" md:absolute top-56 rounded-2xl  bg-gradient-to-t from-[#110C09] to-[#8E8C8C]/25 px-8  ">
-              <ul className="text-xs  md:text-lg font-thin md:font-semibold   list-disc">
-                <li className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit.
-                </li>
-                <li className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </li>
-                <li className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </li>
-                <li className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </li>
-              </ul>
+            <div className="md:absolute top-56">
+              <div className="  rounded-2xl  bg-gradient-to-t from-[#110C09] to-[#8E8C8C]/25 px-8 mb-20 ">
+                <ul className="text-xs  md:text-lg font-thin md:font-semibold   list-disc">
+                  <li className="pt-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </li>
+                  <li className="pt-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </li>
+                  <li className="pt-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </li>
+                  <li className="pt-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </li>
+                </ul>
+              </div>
+              <div className="flex justify-evenly mx-auto  gap-5">
+                <a href="">
+                  <img src={apple} alt="" className="cursor-pointer" />
+                </a>
+
+                <a href="">
+                  <img src={google} alt="" className=" cursor-pointer" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
