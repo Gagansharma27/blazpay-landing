@@ -25,29 +25,9 @@ const Description = () => {
               // data-aos-easing="linear"
               data-aos-duration="1000"
             >
-              <h2
-                className="text-6xl font-semibold "
-                data-aos="fade-in"
-                data-aos-delay="500"
-              >
-                THIS{" "}
-              </h2>
-              <h2
-                className="text-6xl font-semibold "
-                data-aos="fade-in"
-                data-aos-delay="700"
-              >
-                {" "}
-                IS{" "}
-              </h2>
-              <h2
-                className="text-6xl font-semibold "
-                data-aos="fade-in"
-                data-aos-delay="900"
-              >
-                {" "}
-                HEADING
-              </h2>
+              <h2 className="text-6xl font-semibold ">THIS </h2>
+              <h2 className="text-6xl font-semibold "> IS </h2>
+              <h2 className="text-6xl font-semibold "> HEADING</h2>
             </div>
             <div className="">
               <h2 className="md:hidden text-3xl font-bvmp mb-2 ml-2">
@@ -60,7 +40,7 @@ const Description = () => {
                 className="  rounded-2xl  bg-gradient-to-t from-[#110C09] to-[#8E8C8C]/25 px-8 mb-20 "
                 data-aos="fade-down"
                 data-aos-duration="1000"
-                data-aos-delay="1100"
+                data-aos-delay="400"
               >
                 <ul className="text-xs  md:text-lg font-thin md:font-semibold   list-disc">
                   <li className="pt-6">
