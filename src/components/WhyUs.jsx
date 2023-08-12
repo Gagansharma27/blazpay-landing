@@ -5,7 +5,7 @@ import userIcon from "../assets/Group 15.svg";
 import worldIcon from "../assets/Group 17.svg";
 import bg from "../assets/whyusbg.png";
 
-const Features = () => {
+const WhyUs = () => {
   return (
     <>
       <div className="md:bg-why-us bg-cover">
@@ -18,7 +18,7 @@ const Features = () => {
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
               data-aos="fade-down"
-              data-aos-delay="500"
+              data-aos-delay="300"
               data-aos-duration="1000"
             >
               <div className="flex">
@@ -42,7 +42,7 @@ const Features = () => {
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
               data-aos="fade-down"
-              data-aos-delay="700"
+              data-aos-delay="500"
               data-aos-duration="1000"
             >
               <div className="flex">
@@ -66,7 +66,7 @@ const Features = () => {
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
               data-aos="fade-down"
-              data-aos-delay="900"
+              data-aos-delay="700"
               data-aos-duration="1000"
             >
               <div className="flex">
@@ -90,7 +90,7 @@ const Features = () => {
               }}
               className="rounded-3xl md:w-[80%] overflow-hidden bg-[#8E8C8C]/25 mb-4 p-4 shadow-lg"
               data-aos="fade-down"
-              data-aos-delay="1100"
+              data-aos-delay="900"
               data-aos-duration="1000"
             >
               <div className="flex">
@@ -131,4 +131,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default WhyUs;

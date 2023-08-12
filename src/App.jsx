@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Gradient from "./utilities/Gradient";
 import Description from "./components/Description";
 import WhyUs from "./components/WhyUs";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Gradient />
         <WhyUs />
         {/* <Gradient /> */}
+        <Footer />
       </div>
     </>
   );

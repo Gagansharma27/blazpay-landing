@@ -117,7 +117,7 @@ const Features = () => {
                   <img
                     src={PosImage}
                     alt="POS Graphic"
-                    className="w-full h-auto"
+                    className="w-auto h-auto"
                   />
                 </div>
               </div>
